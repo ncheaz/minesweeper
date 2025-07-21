@@ -16,10 +16,15 @@ A Plants vs Zombies themed minesweeper game - vanilla JS, no dependencies.
 - Real-time zombie counter and timer
 
 ## 🚀 How to Play
-1. Open `index.html` in any browser
-2. Select difficulty from dropdown
-3. Left-click to plant, right-click to mark zombies
-4. Reveal all safe squares to win!
+**Important:** This game must be served via HTTP to work properly. Do not open the file directly.
+
+1. Open terminal in the project directory
+2. Run: `npx serve .`
+3. Open your browser to the shown URL (usually `http://localhost:3000`)
+4. Click on `index.html` to start playing
+5. Select difficulty from dropdown
+6. Left-click to plant, right-click to mark zombies
+7. Reveal all safe squares to win!
 
 ## 🛠️ Technical
 - Vanilla JavaScript, HTML, CSS
