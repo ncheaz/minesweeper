@@ -219,6 +219,40 @@ h1 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+.footer {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #2d6a4f;
+}
+
+.footer a {
+    color: #1b4332;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    background: linear-gradient(145deg, #ffd166, #ffb347);
+    border-radius: 15px;
+    border: 2px solid #e76f51;
+    display: inline-block;
+    transition: all 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(145deg, #ffb347, #ffd166);
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+    filter: invert(15%) sepia(15%) saturate(1558%) hue-rotate(94deg) brightness(94%) contrast(87%);
+}
+
 .game-over {
     position: fixed;
     top: 50%;
