@@ -2,6 +2,9 @@
 
 > **🤖 Built entirely with AI using Claude Code + Kimi K2 Anthropic compatible API**
 
+<img width="1115" height="1145" alt="image" src="https://github.com/user-attachments/assets/7a0e53c8-c91f-4e11-bf45-64643d9b6774" />
+
+
 A Plants vs Zombies themed minesweeper game - vanilla JS, no dependencies.
 
 ## 🎮 Quick Play
