@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants vs Zombies - Lawn Defense</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 Plants vs Zombies: Lawn Defense 🧟</h1>
+        <div class="game-info">
+            <div class="info-item">
+                <span class="label">🧟 Zombies:</span>
+                <span id="zombie-count">10</span>
+            </div>
+            <div class="info-item">
+                <span class="label">⏰ Time:</span>
+                <span id="timer">000</span>
+            </div>
+            <button id="reset-btn" class="reset-btn">🌻</button>
+        </div>
+        <div id="game-board" class="game-board"></div>
+        <div class="controls">
+            <label for="difficulty">Garden Size:</label>
+            <select id="difficulty">
+                <option value="easy">Small Lawn (9×9, 10 zombies)</option>
+                <option value="medium">Medium Lawn (16×16, 40 zombies)</option>
+                <option value="hard">Large Lawn (30×16, 99 zombies)</option>
+            </select>
+        </div>
+        <div class="instructions">
+            <p>🌱 Plant sunflowers to defend your lawn! 🧟</p>
+            <p>Left-click to plant, right-click to place walnuts 🌰</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
